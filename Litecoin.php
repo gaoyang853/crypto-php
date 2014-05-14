@@ -1,12 +1,14 @@
 <?php
 
 define("LITECOIN_ADDRESS_VERSION", "48");
+
 /**
  * Litecoin utility functions class
  *
  * @author theymos (functionality)
  * @author Mike Gogulski
  */
+ 
 class Litecoin {
 
   private static $hexchars = "0123456789ABCDEF";

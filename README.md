@@ -1,7 +1,6 @@
 crypto-php
 ==========
 
-### Example Usage
 ```
 $bitcoin = new BitcoinClient("http", "bitcoinrpc", "password", "localhost");
 $litecoin = new LitecoinClient("http", "litecoinrpc", "password", "localhost");

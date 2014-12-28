@@ -9,6 +9,9 @@ require('Bitcoin.php');
 require('Litecoin.php');
 
 $rubycoin = new RubycoinClient("http", "rubycoinrpc", "password", "localhost");
+$bitcoin = new BitcoinClient("http", "bitcoinrpc", "password", "localhost");
+$litecoin = new LitecoinClient("http", "litecoinrpc", "password", "localhost");
+
 $can_connect = $rubycoin->can_connect();
 
 if($can_connect>0) {

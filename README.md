@@ -1,7 +1,7 @@
 crypto-php
 ==========
 
-RPC bindings to create a service, website, or app that uses Rubycoin, Bitcoin, or Litecoin.
+PHP library for developing applications with Rubycoin, Bitcoin, or Litecoin.
 
 ```
 require('Rubycoin.php');
